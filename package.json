@@ -1,0 +1,36 @@
+{
+    "name": "grafibot",
+    "version": "0.1.0",
+    "description": "A Discord bot for the Grafikart.fr Discord server.",
+    "homepage": "https://github.com/Zepines/grafibot",
+    "bugs": {
+        "url": "https://github.com/Zepines/grafibot/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "contact@zepines.xyz",
+        "name": "Zepines",
+        "url": "https://www.zepines.xyz"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zepines/grafibot"
+    },
+    "scripts": {
+        "dev": "tsc && node ./dist/",
+        "build": "tsc",
+        "start": "node ./dist/"
+    },
+    "dependencies": {
+        "discord.js": "^14.3.0",
+        "dotenv": "^16.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.14",
+        "typescript": "^4.8.2"
+    },
+    "engines": {
+        "node": "^16.17.0"
+    }
+}
